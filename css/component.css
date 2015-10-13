@@ -1,0 +1,69 @@
+.cbp-af-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #f6f6f6;
+	z-index: 10000;
+	height: 105px;
+	overflow: hidden;
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+.cbp-af-header .cbp-af-inner {
+
+}
+.cbp-af-header  .navbar-brand > img {
+  width: 200px;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.cbp-af-header-shrink  .navbar-brand > img {
+  width: 150px;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.cbp-af-header li a {
+  line-height: 80px;
+}
+
+
+ /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
+.cbp-af-header .navbar-brand,
+.cbp-af-header .navbar-nav li a {
+	
+}
+
+
+
+
+/* Transitions and class for reduced height */
+.cbp-af-header .navbar-brand,
+.cbp-af-header .navbar-nav li a {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.cbp-af-header.cbp-af-header-shrink {
+	height: 70px;
+}
+.cbp-af-header-shrink li a {
+ line-height: 38px;
+}
+
+.cbp-af-header.cbp-af-header-shrink .navbar-brand,
+.cbp-af-header.cbp-af-header-shrink .navbar-nav li a {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.cbp-af-header.cbp-af-header-shrink .navbar-brand {
+	padding: 5px 0px;
+	
+}
