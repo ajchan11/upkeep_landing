@@ -21,15 +21,34 @@ background:none repeat scroll 0 0 rgba(0, 0, 0, 0.30);
   margin: 0 auto;
 }
 
-.center-img{
-  margin-top: 150px;
+.middle {
+  vertical-align: middle;
+  float:none;
+  display: inline-block;
+}
+
+.img-header {
+  margin-top: 100px;
+  width:70%;
+}
+
+.img-sec1{
+  width:80%;
+}
+
+.img-sec2{
+  width:90%;
+}
+
+.img-sec3{
+  width:80%;
 }
 .carousel-inner img {
   margin: auto;
 }
 .pages {
-  padding-top: 70px;
-  padding-bottom:70px;
+  padding-top: 40px;
+  padding-bottom:40px;
 }
 #mc_embed_signup h2{
 font-size:25px !important;
@@ -643,9 +662,6 @@ color:#444;
 .cbp-af-header-shrink  .navbar-brand > img {
   width: 200px;
   margin-top: 10px;
-}
-.cbp-af-header  .navbar-brand > img {
-  margin-top: 18px;
 }
 
 .plan ul li{

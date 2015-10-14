@@ -72,7 +72,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			  </button>
-			  <a class="navbar-brand" href="/index.php"><img src="img/upkeepLogoLong500.png" alt="Nav-logo" /></a>
+			  <a class="navbar-brand" href="/index.php"><img src="img/newUpLogo.png" alt="Nav-logo" /></a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->

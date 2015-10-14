@@ -22,8 +22,8 @@ footer {
 <body>
 	<div class="col-sm-2"></div>
 	<div class="col-sm-8">
-		<div class="row pages">
-			<h1 class="text-center center-img animated fadeIn">Insert Image here</h1>
+		<div class="row pages text-center animated fadeIn">
+				<img src="img/header_doodle.png" alt="header" class="text-center img-header"/>
 		</div>
 
 		<div class="row pages">
@@ -32,33 +32,33 @@ footer {
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rutrum rhoncus consectetur. Morbi ante nunc, scelerisque at ipsum quis, maximus mattis urna. Etiam cursus euismod eros. Nunc eget nulla et felis rhoncus pulvinar. Maecenas iaculis et augue id elementum. Ut sed pharetra diam. Sed condimentum ultricies neque, nec placerat ligula euismod ut.</p>
 			</div>
 			<div class="col-sm-6 text-center animated fadeInRight">
-				Insert sign in here
+				Insert login here
 			</div>
 		</div>
 
 		<div class="row pages">
 			<div class="col-sm-6 text-center">
-				Insert another image here
+				<img src="img/sec1-doodle.png" alt="section1" class="text-center img-sec1"/>
 			</div>
-			<div class="col-sm-6 text-center">
+			<div class="col-sm-6 text-center middle">
 				<h4> Manage your assets and work orders at the tip of your fingers</h4>
 				<p> Mauris malesuada vehicula commodo. Nulla vel volutpat massa. Donec ut elementum augue. Praesent dapibus ornare risus eget placerat. Donec id purus ut arcu molestie iaculis ac rutrum sem. Praesent vehicula sem eu tincidunt pulvinar. Praesent diam lorem, aliquet et turpis vitae, efficitur mollis justo.</p>
 			</div>
 		</div>
 
-		<div class="row pages">
+		<div class="row pages middle">
 			<div class="col-sm-6 text-center">
 				<h4> Work together with your entire team</h4>
 				<p> Mauris malesuada vehicula commodo. Nulla vel volutpat massa. Donec ut elementum augue. Praesent dapibus ornare risus eget placerat. Donec id purus ut arcu molestie iaculis ac rutrum sem. Praesent vehicula sem eu tincidunt pulvinar. Praesent diam lorem, aliquet et turpis vitae, efficitur mollis justo.</p>
 			</div>
 			<div class="col-sm-6 text-center">
-				Insert another image here
+				<img src="img/sec2-doodle.png" alt="section2" class="text-center img-sec2"/>
 			</div>
 		</div>
 
 		<div class="row pages">
-			<div class="col-sm-6 text-center">
-				Insert another image here
+			<div class="col-sm-6 text-center middle">
+				<img src="img/sec3-doodle.png" alt="section3" class="text-center img-sec3"/>
 			</div>
 			<div class="col-sm-6 text-center">
 				<h4> Keep your Data</h4>
