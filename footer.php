@@ -1,24 +1,26 @@
 	
 	<footer>
-			<a style=" text-align: center;color: #F7F700;display: block; padding-top: 10px;" href="/tos.php">Terms of Service</a>
-			<p>UpKeep Maintenance Management 2014</p> 
-	
-	
-	</footer>
+			<div style=" text-align: center;color: #F7F700;display: block; padding-top: 10px;" href="/tos.php">Terms of Service</div>
+			<p>UpKeep Maintenance Management 2015</p> 
+
 	
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var $_Tawk_API={},$_Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/54ddaafa1a232ad638689d37/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
+	<div>
+		<script type="text/javascript">
+		var $_Tawk_API={},$_Tawk_LoadStart=new Date();
+		(function(){
+		var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+		s1.async=true;
+		s1.src='https://embed.tawk.to/54ddaafa1a232ad638689d37/default';
+		s1.charset='UTF-8';
+		s1.setAttribute('crossorigin','*');
+		s0.parentNode.insertBefore(s1,s0);
+		})();
+		</script>
+	</div>
 <!--End of Tawk.to Script-->
+
+</footer>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
@@ -29,7 +31,8 @@ s0.parentNode.insertBefore(s1,s0);
 		<script type="text/javascript" src="js/supersized.shutter.min.js"></script>
 		<script type="text/javascript" src="js/classie.js"></script>
 		<script type="text/javascript" src="js/cbpAnimatedHeader.min.js"></script>
-		
+		<script src="//www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+		<script type="text/javascript" src="js/parse.js"></script>
 		<script src="js/wow.min.js"></script>
 		  <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>

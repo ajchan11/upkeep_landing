@@ -46,6 +46,7 @@
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Lato:700|Open+Sans:300' rel='stylesheet' type='text/css' />
+		
 		<link rel="stylesheet" href="css/animate.css">
 				<link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/component.css">

@@ -30,12 +30,13 @@ footer {
 
 	<div class="row pages">
 		<div class="col-sm-2"></div>
-		<div class="col-sm-4 text-center animated fadeInLeft">
+		<div class="col-sm-4 text-center animated fadeInLeft text-head">
 				<h3 class="text-center"> Your Work, Your Way</h3>
-				<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rutrum rhoncus consectetur. Morbi ante nunc, scelerisque at ipsum quis, maximus mattis urna. Etiam cursus euismod eros. Nunc eget nulla et felis rhoncus pulvinar. Maecenas iaculis et augue id elementum. Ut sed pharetra diam. Sed condimentum ultricies neque, nec placerat ligula euismod ut.</p>
+				<p class="text-left">UpKeep is asset and maintenance management done the right way. It’s easy to use, easy to customize, and even easier to set your business up for success.</p>
 		</div>
 		<div class="col-sm-4 text-center animated fadeInRight">
-			<h4 class="text-center">Login to UpKeep</h4>
+			<a class="mid_size" href="https://itunes.apple.com/us/app/upkeep-maintenance-management/id921799415?ls=1&amp;mt=8"><img src="img/appstore2.png" alt="" /></a>
+	<!-- 		<h4 class="text-center">Login to UpKeep</h4>
 			<div class="login-body mt-30">
           <form name="loginForm" ng-submit="login();">
             <div class="row">
@@ -44,7 +45,7 @@ footer {
                 <div class="form-group">
                   <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                    <input type="text" class="form-control" id="username" placeholder="Username" name="username" ng-model="login.username" value="" required>
+                    <input type="text" class="form-control" id="username" placeholder="Username" name="username" value="" required>
                   </div>
               	</div>
               </div>
@@ -56,7 +57,19 @@ footer {
                 <div class="form-group">
                   <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                    <input type="password" class="form-control" id="password" placeholder="Password" name="password" ng-model="login.password" value="" required>
+                    <input type="password" class="form-control" id="password" placeholder="Password" name="password" value="" required>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-2"></div>
+            </div>
+            <div class="row">
+            	<div class="col-xs-2"></div>
+              <div class="col-xs-8 ">
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-building"></i></span>
+                    <input type="text" class="form-control" id="signup_company" placeholder="Company Name" name="company" value="">
                   </div>
                 </div>
               </div>
@@ -71,8 +84,8 @@ footer {
             <div class="row mt-30">
               <div class="col-xs-12">
               	<br/>
-                <button class="btn" ng-class="{'btn-grey':loading, 'btn-turquoise':!loading}">[[loading?'Logging you in..': 'LOGIN']]
-                </button><span class="spin loading" ng-if="loading"></span>
+                <div><input class="btn" type="submit" value="Sign Up"> 
+                </div>
               </div>
             </div>
           </form>
@@ -87,30 +100,30 @@ footer {
               </div>
             </div>
         </div>
-      </div>
+      </div> -->
 		</div>
 		<div class="col-sm-2"></div>
 	</div>
 
 	<div class="row pages">
 		<div class="col-sm-2"></div>
-		<div class="col-sm-4 text-center">
+		<div class="col-sm-4 text-center wow fadeInLeft" data-wow-duration="1s">
 			<img src="img/sec1-doodle.png" alt="section1" class="text-center img-sec1"/>
 		</div>
-		<div class="col-sm-4 text-sec1">
+		<div class="col-sm-4 text-sec1 wow fadeInRight" data-wow-duration="1s">
 			<h4 class="text-center"> Manage your assets and work orders at the tip of your fingers</h4>
-			<p class="text-left"> Mauris malesuada vehicula commodo. Nulla vel volutpat massa. Donec ut elementum augue. Praesent dapibus ornare risus eget placerat. Donec id purus ut arcu molestie iaculis ac rutrum sem. Praesent vehicula sem eu tincidunt pulvinar. Praesent diam lorem, aliquet et turpis vitae, efficitur mollis justo.</p>
+			<p class="text-left"> From your desktop to your phone and even your tablet, UpKeep is easily accessible from anywhere at any time. Create work orders on-the-go, get notifications when tasks are updated, and receive alerts straight from your app when assets go down — making your business run more efficiently than ever before.</p>
 		</div>
 		<div class="col-sm-2"></div>
 	</div>
 
 	<div class="row pages">
 		<div class="col-sm-2"></div>
-		<div class="col-sm-4 text-sec2">
+		<div class="col-sm-4 text-sec2 wow fadeInLeft" data-wow-duration="1s">
 			<h4 class="text-center"> Work together with your entire team</h4>
-			<p class="text-left"> Mauris malesuada vehicula commodo. Nulla vel volutpat massa. Donec ut elementum augue. Praesent dapibus ornare risus eget placerat. Donec id purus ut arcu molestie iaculis ac rutrum sem. Praesent vehicula sem eu tincidunt pulvinar. Praesent diam lorem, aliquet et turpis vitae, efficitur mollis justo.</p>
+			<p class="text-left"> UpKeep was designed to help streamline communications for the team, whether they’re on site or in the field. With different access levels for admins, technicians, overseers, and requesters, you can organize the workflow of your team and increase productivity. </p>
 		</div>
-		<div class="col-sm-4 text-center">
+		<div class="col-sm-4 text-center wow fadeInRight" data-wow-duration="1s">
 			<img src="img/sec2-doodle.png" alt="section2" class="text-center img-sec2"/>
 		</div>
 		<div class="col-sm-2"></div>
@@ -118,17 +131,42 @@ footer {
 
 	<div class="row pages">
 		<div class="col-sm-2"></div>
-		<div class="col-sm-4 text-center">
+		<div class="col-sm-4 text-center wow fadeInLeft" data-wow-duration="1s">
 			<img src="img/sec3-doodle.png" alt="section3" class="text-center img-sec3"/>
 		</div>
-		<div class="col-sm-4 text-sec3">
-			<h4 class="text-center"> Keep your Data</h4>
-			<p class="text-left"> Mauris malesuada vehicula commodo. Nulla vel volutpat massa. Donec ut elementum augue. Praesent dapibus ornare risus eget placerat. Donec id purus ut arcu molestie iaculis ac rutrum sem. Praesent vehicula sem eu tincidunt pulvinar. Praesent diam lorem, aliquet et turpis vitae, efficitur mollis justo.</p>
+		<div class="col-sm-4 text-sec3 wow fadeInRight" data-wow-duration="1s">
+			<h4 class="text-center"> Keep your data safe</h4>
+			<p class="text-left"> All data is backed up daily and securely stored in the cloud. This means you can readily access your business information from any device. </p>
 		</div>
 		<div class="col-sm-2"></div>
 	</div>
 
+	<div class="row pages">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-4 text-sec4 wow fadeInLeft" data-wow-duration="1s">
+			<h4 class="text-center"> Track costs and view reports</h4>
+			<p class="text-left"> By closely monitoring your business, UpKeep helps reduce potential downtime of your most valuable assets. Save precious time and money by tracking work orders and inventory. Then easily view reports of work orders at the click of a button. Just a few ways that preventative maintenance software keeps things running smoothly.</p>
+		</div>
+		<div class="col-sm-4 text-center wow fadeInRight" data-wow-duration="1s">
+			<img src="img/sec4-doodle.png" alt="section4" class="text-center img-sec4"/>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
 
+	<div class="row pages">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-4 text-center wow fadeInLeft" data-wow-duration="1s">
+			<img src="img/sec5-doodle.png" alt="section5" class="text-center img-sec5"/>
+		</div>
+		<div class="col-sm-4 text-sec5 wow fadeInRight" data-wow-duration="1s">
+			<h4 class="text-center"> Customize your work orders</h4>
+			<p class="text-left"> Make every work order fit your needs. Our work order forms can be customized for measuring values, creating checklists, and tracking general notes. You can even add files, pictures, or parts to individual tasks and set the priority level — making sure each is completed on time, exactly the way it should be.</p>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
 
 <?php include("footer.php"); ?>
+
+
+
 </body>	
